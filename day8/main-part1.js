@@ -9,6 +9,7 @@ const lines = input.split(/\r?\n/);
 let accumulator = 0;
 let index = 0;
 let checkDup = [];
+
 while (!checkDup.includes(index)) {
   checkDup.push(index);
 
